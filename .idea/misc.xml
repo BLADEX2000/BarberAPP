@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/drawable-v24/button.xml" value="0.2505" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/drawable-v24/edtInputs.xml" value="0.218" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/drawable-v24/edtcuadros.xml" value="0.2155" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/drawable-v24/edtinputs.xml" value="0.1" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/drawable/boton.xml" value="0.218" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/layout/agendar_activity.xml" value="0.3292572463768116" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/layout/login_activity.xml" value="0.22" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/layout/principal_activity.xml" value="0.3292572463768116" />
+        <entry key="..\:/CicloIV/DesAppMov/DAM1_Proyecto2022/BarberAPP/app/src/main/res/layout/registrar_activity.xml" value="0.31476449275362317" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

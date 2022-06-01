@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGENDAR CITA"
+            android:textColor="#0d6e6a"
+            android:textSize="45dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:letterSpacing="0.03"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"
+            android:text="Tipo de sesión"
+            android:textColor="#0d6e6a"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spnSesion"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edtcuadros"
+
+            android:entries="@array/arregloSesiones"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColor="#0d6e6a" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"
+            android:text="Barbero"
+            android:textColor="#0d6e6a"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spnBarbero"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edtcuadros"
+
+            android:entries="@array/arregloBarberos"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColor="#0d6e6a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"
+            android:text="Fecha"
+            android:textColor="#0d6e6a"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etdFecha"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edtcuadros"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="Seleccione fecha"
+            android:paddingLeft="20dp"
+            android:textColor="#0d6e6a" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"
+            android:text="Hora"
+            android:textColor="#0d6e6a"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edtHora"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edtcuadros"
+            android:hint="Seleccione hora"
+            android:paddingLeft="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="#0d6e6a" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/boton"
+            android:text="Nuevo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnVolverAC"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/boton"
+            android:text="Volver"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

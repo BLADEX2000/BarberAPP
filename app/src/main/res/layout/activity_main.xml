@@ -6,13 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BARBER APP"
+            android:textColor="#0d6e6a"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:letterSpacing="0.03"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="240dp"
+            android:src="@drawable/barber_logo"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese usuario"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="#0d6e6a"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"/>
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:background="@drawable/edtcuadros"
+            android:textColor="#0d6e6a"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese contraseña"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="#0d6e6a"
+            android:layout_gravity="top"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:background="@drawable/edtcuadros"
+            android:textColor="#0d6e6a"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnIngresar"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/boton"
+            android:text="Ingresar"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Eres nuevo?"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#0d6e6a"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrarC"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boton"
+            android:text="Registrar"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
